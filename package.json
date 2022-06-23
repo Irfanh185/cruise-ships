@@ -1,0 +1,14 @@
+{
+  "name": "cruise-ships",
+  "version": "1.0.0",
+  "description": "cruise ships project to develop understanding of oop",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "irfan hussain",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
