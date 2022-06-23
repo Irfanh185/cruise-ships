@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "cruise ships project to develop understanding of oop",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jest"
   },
