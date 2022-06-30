@@ -1,7 +1,12 @@
 class Ship {
-  constructor(startingPort) {
-    this.startingPort = startingPort;
+  constructor(currentPort) {
+    this.currentPort = currentPort;
+  }
+  setSail() {
+    return (this.currentPort = "");
   }
 }
 
 module.exports = Ship;
+
+// If current port not === current port then return false
