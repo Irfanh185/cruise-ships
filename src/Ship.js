@@ -3,10 +3,12 @@ class Ship {
     this.currentPort = currentPort;
   }
   setSail() {
-    return (this.currentPort = "");
+    this.currentPort = "";
+  }
+
+  dock(port) {
+    this.currentPort = port;
   }
 }
 
 module.exports = Ship;
-
-// If current port not === current port then return false
