@@ -1,14 +1,12 @@
 /* globals describe it expect */
 const Ship = require("../src/Ship");
-const Port = require("../src/Port");
-const Itinerary = require("../src/Itinerary");
 
 describe("Ship", () => {
   describe("with ports and an itinerary", () => {
     let ship;
     let dover;
     let calais;
-    let itenerary;
+    let itinerary;
 
     beforeEach(() => {
       dover = {
@@ -25,8 +23,10 @@ describe("Ship", () => {
         ships: [],
       };
 
-      itenerary = new Itinerary([dover, calais]);
-      ship = new Ship(itenerary);
+      itinerary = {
+        ports: [dover, calais],
+      };
+      ship = new Ship(itinerary);
     });
 
     it("can be instantiated", () => {
