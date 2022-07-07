@@ -24,9 +24,4 @@ class Ship {
   }
 }
 
-// const newShip = new Ship(["dover", "calais"]);
-// newShip.setSail();
-// console.log(newShip.currentPort);
-// newShip.setSail();
-
 module.exports = Ship;
